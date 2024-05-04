@@ -7,7 +7,7 @@ This project is a simple example of how to send data from ESP32 to Google Spread
 Create a new Google Spread Sheet and add the following headers in the first row:
 
 ```
-Timestamp | Temperature | Humidity | Heat Index | RawSGP40
+Date | Temperature | Humidity | Heat Index | RawSGP40
 ```
 
 Note down the Google Spread Sheet ID from its URL and replace it with `<YOUR_GOOGLE_SPREAD_SHEET_ID>` in `script.js`
